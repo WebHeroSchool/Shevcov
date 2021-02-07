@@ -3,12 +3,12 @@
 }
 
 body {
-  margin: 0px 5px 0px 0px;
+  margin: 0px 13px 0px 0px;
 }
 
 .wrapper {
   margin: auto;
-  width: 81%;
+  width: 80%;
 }
 
 .header {
@@ -21,13 +21,13 @@ body {
 .logo {
   position: relative;
   padding: 39px 0;
-  padding-left: 60px;
+  padding-left: 50px;
   font: normal 24px/32px "pt_serifbold", Arial, helvetica, sans-serif;
 }
 
 .logo__circle {
   position: absolute;
-  left: 16px;
+  left: 6px;
   top: 47%;
   transform: translateY(-50%);
   width: 28px;
@@ -41,7 +41,7 @@ body {
 }
 
 .logo__circle_color_blue {
-  left: 24px;
+  left: 14px;
   top: 53%;
   background: #C8DBFB;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .main {
-  padding:74px 63% 100px 14px;
+  padding:74px 63% 100px 4px;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
