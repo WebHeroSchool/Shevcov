@@ -3,31 +3,32 @@
 }
 
 body {
-  margin: 0px 0px 0px 6px;
+  margin: 0px 5px 0px 0px;
 }
 
 .wrapper {
   margin: auto;
-  width: 80%;
+  width: 81%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 130px;
+  margin-bottom: 126px;
+  height: 116px;
 }
 
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
-  font: bold 24px/32px "pt_serifbold", Arial, helvetica, sans-serif;
+  padding: 39px 0;
+  padding-left: 60px;
+  font: normal 24px/32px "pt_serifbold", Arial, helvetica, sans-serif;
 }
 
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%;
+  left: 16px;
+  top: 47%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -40,8 +41,8 @@ body {
 }
 
 .logo__circle_color_blue {
-  left: 8px;
-  top: 56%;
+  left: 24px;
+  top: 53%;
   background: #C8DBFB;
 }
 
@@ -52,7 +53,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 27px;
   font: 500 18px/21px Roboto, Arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -85,17 +86,17 @@ body {
 }
 
 .main {
-  padding:76px 63% 100px 0;
+  padding:74px 63% 100px 14px;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title {
-  margin: 0 0 34px 0;
-  font: bold 66px/87px "pt_serifbold", Arial, helvetica, sans-serif;
+  margin: 0 0 36px 0;
+  font: normal 66px/87px "pt_serifbold", Arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 42px 0;
   padding:0 20% 0 0;
   font: 22px/26px Roboto, Arial, helvetica, sans-serif;
 }
@@ -104,11 +105,12 @@ body {
   background: #ECF3FF;
 }
 .main__button {
+  margin-left: 3px;
   display: inline-block;
-  font: 18px/21px Roboto, Arial, helvetica, sans-serif;
+  font: 250 18px/21px Roboto, Arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 28px;
+  padding: 18px 37px 18px 20px;
   text-decoration: none;
   border-radius: 4px;
   transition: .5s;
