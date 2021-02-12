@@ -126,14 +126,123 @@ body {
   opacity: 0;
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 1367px) {
+
+  .wrapper {
+    margin: auto;
+    width: 70%;
+  }
+
+  .header {
+    margin-bottom: 77px;
+  }
+
+  .logo {
+    padding: 39px 0;
+    padding-left: 60px;
+  }
+
+  .logo__circle {
+    left: 15px;
+  }
+
+  .logo__circle_color_blue {
+    left: 23px;
+  }
+
+  .menu {
+    padding: 33px 7px 0 17px;
+  }
+
+  .menu__item {
+    font: 500 14px/16px Roboto, Arial, helvetica, sans-serif;
+  }
+
+  .main {
+    padding:18px 50% 100px 15px;
+    background-size: 55%;
+  }
+
+  .main__title {
+    margin: 0 0 39px 0;
+    font: normal 50px/66px "pt_serifbold", Arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    font: normal 18px/21px Roboto, Arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    margin-left: 2px;
+    font: 500 14px/16px Roboto, Arial, helvetica, sans-serif;
+    padding: 14px 25px 13px 16px;
+  }
+}
+
+@media (max-width: 1025px) {
+
+  .wrapper {
+    margin: auto;
+    width: 95%;
+  }
+
+  .header {
+    margin-bottom: 80px;
+  }
+
+  .logo {
+    padding: 39px 0;
+    padding-left: 65px;
+  }
+
+  .logo__circle {
+    left: 21px;
+  }
+
+  .logo__circle_color_blue {
+    left: 29px;
+  }
+
+  .menu {
+
+    padding: 33px 7px 0 17px;
+  }
+
+  .menu__item {
+    font: 500 14px/16px Roboto, Arial, helvetica, sans-serif;
+  }
+
+  .main {
+    margin-right: 10px;
+    padding:16px 50% 100px 21px;
+    background-size: 54%;
+  }
+
+  .main__title {
+    margin: 0 0 39px 0;
+    font: normal 50px/66px "pt_serifbold", Arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    margin: 0 0 41px 0;
+    font: normal 500 18px/21px Roboto, Arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    margin-left: 1px;
+    font: 500 14px/16px Roboto, Arial, helvetica, sans-serif;
+    padding: 14px 25px 13px 16px;
+  }
+}
+
+@media (max-width: 668px)  {
   .menu {
     display: block;
     position: fixed;
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 300px;
+    width: 375px;
     height: 100%;
     margin: 0;
     padding: 150px 0;
@@ -145,6 +254,7 @@ body {
   }
 
   .menu__item {
+    margin: 0;
     display: block;
     padding: 12px 24px;
     font: 500 30px/35px Roboto, Arial, helvetica, sans-serif;
